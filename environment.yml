@@ -1,0 +1,17 @@
+name: optimizer_exp
+dependencies:
+  - pip
+  - python==3.9
+  - pip:
+    - numpy==1.23.5 
+    - pandas
+    - matplotlib
+    - seaborn 
+    - scipy==1.8.0
+    - smt==1.2.0
+    - tqdm
+    - cocopp==2.6
+    - pyswarms
+    - pygad==2.17
+    - scikit-learn
+    - pyDOE2
